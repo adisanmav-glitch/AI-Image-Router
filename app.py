@@ -24,7 +24,7 @@ LEMON_SQUEEZY_PRODUCT_ID = os.getenv("LEMON_SQUEEZY_PRODUCT_ID")
 LEMON_SQUEEZY_VARIANT_ID = os.getenv("LEMON_SQUEEZY_VARIANT_ID")
 LEONARDO_AI_API_KEY = os.getenv("LEONARDO_AI_API_KEY")
 SEGMIND_API_KEY = os.getenv("SG_124cb5ce259a6ceb")
-WEBHOOK_SECRET = os.getenv("PixZapSmart2204") # Shared secret for webhook validation
+WEBHOOK_SECRET = os.getenv("PixZap123secret") # Shared secret for webhook validation
 
 if not all([LEMON_SQUEEZY_API_KEY, LEMON_SQUEEZY_STORE_ID, LEMON_SQUEEZY_PRODUCT_ID, LEMON_SQUEEZY_VARIANT_ID, LEONARDO_AI_API_KEY, SEGMIND_API_KEY, WEBHOOK_SECRET]):
     logger.error("Missing one or more required environment variables.")
