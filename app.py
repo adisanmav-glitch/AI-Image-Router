@@ -56,10 +56,10 @@ def get_current_utc_time():
     return datetime.now(timezone.utc)
 
 class GenerateRequest(BaseModel):
-    model: str 
+    model: str = "SDXL" 
     prompt: str
-    size: str = "1024x1024"
-    n: int = 1
+    width: int = 1024
+    height: int = 1024
   
 class WebhookRequest(BaseModel):
     meta: dict
