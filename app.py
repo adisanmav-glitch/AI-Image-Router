@@ -57,7 +57,7 @@ def get_current_utc_time():
 
 class GenerateRequest(BaseModel):
     model: str 
-    promt: str
+    prompt: str
     size: str = "1024x1024"
     n: int = 1
   
